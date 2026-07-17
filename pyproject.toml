@@ -1,0 +1,11 @@
+[project]
+name = "concept-graph-quizzer"
+version = "0.1.0"
+description = "Turn study notes into a Graphviz diagram and relationship-focused quiz."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.49.0",
+    "python-dotenv>=1.0.1",
+    "streamlit>=1.42.0",
+]
